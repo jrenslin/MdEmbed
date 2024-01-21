@@ -1,0 +1,4 @@
+/** Style your page */
+
+body { font-family: sans; max-width: 800px; margin: .5em auto; padding: 1em; }
+h1 { padding-bottom: .5em; margin-bottom: .5em; border-bottom: 5px solid #EEE; }
