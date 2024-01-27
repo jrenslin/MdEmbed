@@ -36,7 +36,7 @@
 .md-objects-result-meta { display: block; font-style: italic; }
 .md-objects-result-wrap .md-pagination { display: block; padding: .2em 0; text-align: center; }
 
-.md-pagination > * { display: inline-block; padding: .3em .3em; margin: .2em; background: var(--md-color-bg2); transition: background .2s, color: .2s; }
+.md-pagination > * { display: inline-block; padding: .3em .3em; margin: .2em; background: var(--md-color-bg2); transition: background .2s, color .2s; }
 .md-pagination > .md-pag:hover { background: var(--md-color-accent); color: var(--md-color-accent-fg); }
 .md-pagination > .selected { font-weight: bold; color: var(--md-color-accent); }
 
