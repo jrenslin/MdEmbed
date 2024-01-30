@@ -9,6 +9,10 @@ This repository aims to make working with [museum-digital's public APIs](https:/
 - *MdSampleOnlineCollection.js*
   This class provides a sample implementation of a basic but usable online collection for a single museum. 
 
+## Demo
+
+A very minimal demo version can be found [here](https://mdembed.jrenslin.de/example/index.htm).
+
 ## Dependencies
 
 The build process depends on [minify](https://github.com/tdewolff/minify), which is used to minify and combine JavaScript and CSS files. Otherwise, no external dependencies exist.
