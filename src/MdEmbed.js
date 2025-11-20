@@ -684,7 +684,7 @@ class MdEmbed {
 
             // Events
 
-            if (apiOutput.object_events.length > 0) {
+            if (apiOutput.object_events !== undefined && apiOutput.object_events.length > 0) {
 
                 const eventTd = document.createElement("td");
                 for (const eventEntry of apiOutput.object_events) {
@@ -702,7 +702,7 @@ class MdEmbed {
 
             // Tags
 
-            if (apiOutput.object_tags.length > 0) {
+            if (apiOutput.object_tags !== undefined && apiOutput.object_tags.length > 0) {
 
                 const tagTd = document.createElement("td");
                 for (const tagEntry of apiOutput.object_tags) {
@@ -717,7 +717,7 @@ class MdEmbed {
 
             // Collections
 
-            if (apiOutput.object_collection.length > 0) {
+            if (apiOutput.object_collection !== undefined && apiOutput.object_collection !== null && apiOutput.object_collection.length > 0) {
 
                 const colTd = document.createElement("td");
                 for (const colEntry of apiOutput.object_collection) {
@@ -732,7 +732,7 @@ class MdEmbed {
 
             // Series
 
-            if (apiOutput.object_series.length > 0) {
+            if (apiOutput.object_series !== undefined && apiOutput.object_series !== null && apiOutput.object_series.length > 0) {
 
                 const serTd = document.createElement("td");
                 for (const serEntry of apiOutput.object_series) {
