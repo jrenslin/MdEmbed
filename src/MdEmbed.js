@@ -669,7 +669,7 @@ class MdEmbed {
 
             // Literature
 
-            if (apiOutput.object_literature.length > 0) {
+            if (apiOutput.object_literature !== undefined && apiOutput.object_literature !== null && apiOutput.object_literature.length > 0) {
 
                 const litTd = document.createElement("td");
                 for (const litEntry of apiOutput.object_literature) {
